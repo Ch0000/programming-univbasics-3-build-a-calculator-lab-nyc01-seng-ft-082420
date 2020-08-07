@@ -23,7 +23,7 @@ num1 = 34
 num2 = 5
 puts num1.modulo(num2)
 end
-modulo
+modulo(num1, num2)
 
 def square_root(num)
 num = 81.0
