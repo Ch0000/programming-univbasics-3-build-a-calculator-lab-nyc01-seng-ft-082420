@@ -19,11 +19,14 @@ end
 puts multiplication(3, 2)
 
 def modulo(num1, num2)
-puts num1.modulo(num2).class
+num1 = 34
+num2 = 5
+puts num1.modulo(num2)
 end
-modulo(34, 5)
+modulo
 
 def square_root(num)
-puts Integer.sqrt(num).class
+num = 81.0
+puts Integer.sqrt(num)
 end
 square_root(81.0)
