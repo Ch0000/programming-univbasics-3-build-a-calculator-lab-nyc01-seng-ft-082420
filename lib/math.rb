@@ -21,12 +21,12 @@ puts multiplication(3, 2)
 def modulo(num1, num2)
 num1 = 34
 num2 = 5
-puts num1.modulo(num2)
+print num1.modulo(num2)
 end
 modulo(34, 5)
 
 def square_root(num)
 num = 81.0
-puts Integer.sqrt(num)
+print Integer.sqrt(num)
 end
 square_root(81.0)
