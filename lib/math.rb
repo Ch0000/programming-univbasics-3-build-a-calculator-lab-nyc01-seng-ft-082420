@@ -23,10 +23,10 @@ num1 = 34
 num2 = 5
 puts num1.modulo(num2)
 end
-modulo(num1, num2)
+modulo
 
 def square_root(num)
 num = 81.0
 puts Integer.sqrt(num)
 end
-square_root(81.0)
+square_root
